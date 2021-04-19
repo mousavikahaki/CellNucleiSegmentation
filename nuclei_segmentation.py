@@ -1,4 +1,3 @@
--#
 # Created on 4/15/2021
 #
 # @author Seyed
@@ -35,8 +34,8 @@ Batch_size = 8
 Epochs = 10
 Verbose = 1
 
-TrainPath = 'stage1_train/'
-TestPath = 'stage1_test/'
+TrainPath = '../Data/stage1_train/'
+TestPath = '../Data/stage1_test/'
 
 model_name = 'Unet_'+Backbone_model
 
